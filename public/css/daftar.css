@@ -1,0 +1,74 @@
+.bgDaftar
+{
+    background-color:rgb(217, 229, 235);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    /* position: absolute; */
+    /* top: 0; */
+    /* width: 100vw; */
+
+    /* font-family: Impact, Helvetica, sans-serif; */
+}
+
+.daftarBanner
+{
+    background-color: darkslategrey;
+    top: 0;
+    width: 100vw;
+    height: 25vh;
+    color: azure;
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+}
+
+.containerDaftar
+{
+    position: relative;
+    width: 80%;
+    height: auto;
+    /* background-color: dimgrey; */
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.containerStart
+{
+    margin-right: auto;
+    margin-left: auto;
+    height: 70vh;
+    overflow: hidden;
+    padding-top: 15vh;  
+}
+
+/* .startBox
+{
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+} */
+
+@media only screen and (max-width: 768px)
+{
+    .containerDaftar
+    {
+        width: 96%;
+    }
+
+}
+
+.daftarFooter
+{
+    background-color: darkslategrey;
+    bottom: 0;
+    width: 100vw;
+    height: 5vh;
+    color: azure;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    position: -webkit-sticky;
+}
